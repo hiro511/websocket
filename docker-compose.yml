@@ -1,0 +1,8 @@
+node:
+  build: "./"
+  container_name: "node"
+  working_dir: "/usr/src/app"
+  ports:
+    - "80:3000"
+  volumes:
+    - "$PWD/src:/usr/src/app"

@@ -1,0 +1,12 @@
+{
+  "name": "websocket",
+  "version": "0.0.1",
+  "homepage": "https://github.com/hiro511/websocket",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "devDependencies":{
+    "socket.io": "latest"
+  }
+}
